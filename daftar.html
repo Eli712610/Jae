@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌱 Ayo Daftar! - Lestarikan Lingkungan Kita!!! 🌱</title>
+    <!-- Link ke CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font lucu dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="form-page">
+    <!-- Header lucu dengan judul utama -->
+    <header class="bouncy-header">
+        <div class="cloud cloud1">☁️</div>
+        <div class="cloud cloud2">☁️</div>
+        <div class="cloud cloud3">☁️</div>
+        <h1 class="main-title">🌱 Ayo Jadi Pejuang Lingkungan! 🌱</h1>
+        <div class="dancing-icons">
+            <span class="dancing-icon">🌿</span>
+            <span class="dancing-icon">🌸</span>
+            <span class="dancing-icon">💧</span>
+            <span class="dancing-icon">✨</span>
+            <span class="dancing-icon">🌈</span>
+        </div>
+    </header>
+
+    <!-- Bagian utama konten -->
+    <main>
+        <div class="form-container">
+            <h2 class="form-title">✨ Daftar Jadi Sahabat Bumi ✨</h2>
+            <p class="form-intro">Yuk isi form ini untuk bergabung dalam aksi seru menjaga lingkungan! 🌎</p>
+            
+            <!-- Form daftar yang lucu -->
+            <form id="registrationForm" class="cute-form">
+                <div class="form-group">
+                    <label for="name">Isi Namamu: 😊</label>
+                    <input type="text" id="name" name="name" class="cute-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email kamu: 📧</label>
+                    <input type="email" id="email" name="email" class="cute-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="age">Umur kamu: 🎂</label>
+                    <input type="number" id="age" name="age" class="cute-input" min="5" max="120" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="checkbox-label">Aksi lingkungan favoritmu: 💚</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="action" value="tanam"> 🌱 Tanam pohon
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="action" value="sampah"> 🗑️ Memilah sampah
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="action" value="belanja"> 🛒 Belanja ramah lingkungan
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="action" value="hemat"> 💧 Hemat air & listrik
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Pesan ceriamu untuk Bumi: 💌</label>
+                    <textarea id="message" name="message" class="cute-input cute-textarea" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit" class="cute-button submit-button" id="submitButton">
+                    🎉 Kirim & Jadi Pahlawan Bumi! 🦸‍♀️🦸‍♂️
+                </button>
+            </form>
+            
+            <!-- Pesan setelah submit -->
+            <div id="thankYouMessage" class="thank-you-message hidden">
+                <h3>🎊 HOREEE! Kamu Berhasil Mendaftar! 🎊</h3>
+                <p>Selamat datang di keluarga Pejuang Lingkungan! 💚</p>
+                <div class="celebration-emoji">
+                    <span>🌟</span>
+                    <span>🎉</span>
+                    <span>🌈</span>
+                    <span>🌱</span>
+                    <span>💚</span>
+                </div>
+                <a href="index.html" class="cute-button return-button">🏠 Kembali ke Beranda</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer dengan pesan tambahan -->
+    <footer>
+        <p>By Fadhel 🌿 Untuk Bumi yang gemesin abis! 💚🌍</p>
+        <div class="footer-icons">
+            <span class="footer-icon">🌱</span>
+            <span class="footer-icon">🌿</span>
+            <span class="footer-icon">🌺</span>
+        </div>
+    </footer>
+
+    <!-- Link ke JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
